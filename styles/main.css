@@ -9,35 +9,71 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size:1,5 em;
     background-color: white;
+    letter-spacing: .1em;
 }
 
 main{
     margin:0em 2em 0em 2em
 }
 
-/* button {
-    height:30px;
-    width:50px;
-    background-color:black;
-    text-align: center;
-    border-radius:10px;
-}
-button:hover {
-    height:30px;
-    width:50px;
-    background-color:darkgrey;
-    text-align: center;
-}
-
-button a:hover {
-    color:white;
-} */
-
-.banner{
-    height: 200px;
+#main-banner {
     background-color: black;
     color:white;
 }
+
+.banner-title {
+    font-weight:100;
+    text-align:center;
+    padding:1.5em;
+}
+
+.banner {
+    height: auto;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.banner-half  {
+    width:40%;
+    padding:2.5%;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+   
+}
+
+.banner-half img {
+    max-width: 100%;
+    min-width:60%;
+} 
+
+.banner-text {
+    text-align: left;
+    max-width: 100%;
+    min-width:60%;
+}
+
+.banner-title-subtitle {
+    font-weight:100;
+    padding-bottom:2em;
+    font-size: 1.5em;
+}
+
+
+.text{
+    padding-bottom:2em;
+}
+
+button {
+    padding:15px;
+    border-radius:50px;
+    border-color:white;
+    background-color:lavender;
+    font-family: Verdana, san-serif;
+    letter-spacing: .1em;
+    font-weight: 900;
+} 

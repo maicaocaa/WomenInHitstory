@@ -19,14 +19,19 @@ header {
     width: auto;
     height:4em;
     border:1px solid red;
+  
 }
 
 #menu {
     list-style: none;
     border:1px solid red;
     height:2em;
+    
+
 }
 #menu li {
+    height:2em;
+    padding-top:0.5em;
     text-decoration: none;
     float: left;
     padding-right:2em;
@@ -35,10 +40,13 @@ header {
 a {
     text-decoration: none;
     color:gray;
+    vertical-align: middle;
+   
     
     
 }
 
 a:hover {
     color:black;
+
 }
