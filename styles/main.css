@@ -16,10 +16,12 @@ body{
 }
 
 main{
-    margin:0em 4em 0em 4em
+    margin:0em 4em 0em 4em;
+    box-shadow: 0px 2px 9px grey;
+    
 }
 
-#main-banner {
+.main-banner {
     background-color: black;
     color:white;
 }
@@ -43,7 +45,6 @@ main{
     height: auto;
     display: inline-block;
     align-items: center;
-   
 }
 
 .banner-half img {
@@ -63,14 +64,13 @@ main{
     font-size: 1.5em;
 }
 
-
 .text-left-justify {
     padding-bottom:2em;
     text-align: left;
 }
 .text-center-justify {
     text-align: center;
-    padding-bottom:2em
+   
 }
 
 button {
@@ -81,7 +81,6 @@ button {
     font-family: Verdana, san-serif;
     letter-spacing: .1em;
     font-weight: 900;
-    
 } 
 
 button:hover {
@@ -92,12 +91,14 @@ button:active {
     background-color:white;
 } 
 
-#middle-section {
+.middle-section {
     padding:5%;
 }
+
 table{
     border-collapse: collapse;
-
+    padding-bottom: 2em;
+    margin-top: 2em;
 }
 
 table td{
@@ -115,4 +116,49 @@ table td ul{
 
 .tr-lavender {
     background-color:lightgray;
+}
+
+#banner-mini-img  {
+        width:25%;
+        padding:2.5%;
+        height: auto;
+        display: inline-block;
+        align-items: center;
+    }
+    
+#banner-mini-img img{
+        border-radius: 50px;
+    }
+
+#banner-mini-text  {
+        width:50%;
+        padding:2.5%;
+        height: auto;
+        display: inline-block;
+        align-items: center;
+    }
+
+.round-card {
+    width:15%;
+    padding-left:1.5%;
+    padding-top:2em;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+}
+.round-img {
+        border-radius: 50%;
+        height:150px;
+        width:150px
+    }
+
+    
+.banner-collapse{
+   background-color:darkgray;
+}
+.banner-collapse-half {
+    width:45%;
+    height: 100%;
+    display: inline-block;
+    align-items: center;
 }
