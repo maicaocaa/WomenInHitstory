@@ -1,3 +1,41 @@
 header {
-    background-color: darkkhaki;
+    background-color:white;
+    display:fixed;
+
+}
+
+#navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:1em 2em;
+    border:1px solid red;
+    border-bottom:1px solid lightgray;
+}
+
+#logo img {
+    width: auto;
+    height:4em;
+    border:1px solid red;
+}
+
+#menu {
+    list-style: none;
+    border:1px solid red;
+    height:2em;
+}
+#menu li {
+    text-decoration: none;
+    float: left;
+    padding-right:2em;
+}
+
+#menu a {
+    text-decoration: none;
+    color:gray;
+}
+
+#menu  a:hover {
+    color:black;
 }
