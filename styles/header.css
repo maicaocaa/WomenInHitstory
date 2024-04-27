@@ -12,6 +12,7 @@ header {
     padding:1em 2em;
     border:1px solid red;
     border-bottom:1px solid lightgray;
+    height: 100px;
 }
 
 #logo img {
@@ -31,11 +32,13 @@ header {
     padding-right:2em;
 }
 
-#menu a {
+a {
     text-decoration: none;
     color:gray;
+    
+    
 }
 
-#menu  a:hover {
+a:hover {
     color:black;
 }
