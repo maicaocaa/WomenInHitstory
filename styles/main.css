@@ -70,6 +70,7 @@ main{
 }
 .text-center-justify {
     text-align: center;
+    padding-bottom:2em
 }
 
 button {
@@ -80,8 +81,38 @@ button {
     font-family: Verdana, san-serif;
     letter-spacing: .1em;
     font-weight: 900;
+    
+} 
+
+button:hover {
+    background-color:pink;
+} 
+
+button:active {
+    background-color:white;
 } 
 
 #middle-section {
     padding:5%;
+}
+table{
+    border-collapse: collapse;
+
+}
+
+table td{
+    padding:1em 1.5em;
+    font-size:0.9em;
+}
+
+table td ul{
+    padding-left: 1.5em;
+}
+
+.tr-gray {
+    background-color:rgb(235, 233, 233);
+}
+
+.tr-lavender {
+    background-color:lightgray;
 }
