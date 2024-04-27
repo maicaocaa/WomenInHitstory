@@ -16,7 +16,7 @@ body{
 }
 
 main{
-    margin:0em 2em 0em 2em
+    margin:0em 4em 0em 4em
 }
 
 #main-banner {
@@ -24,7 +24,7 @@ main{
     color:white;
 }
 
-.banner-title {
+.title {
     font-weight:100;
     text-align:center;
     padding:1.5em;
@@ -64,8 +64,12 @@ main{
 }
 
 
-.text{
+.text-left-justify {
     padding-bottom:2em;
+    text-align: left;
+}
+.text-center-justify {
+    text-align: center;
 }
 
 button {
@@ -77,3 +81,7 @@ button {
     letter-spacing: .1em;
     font-weight: 900;
 } 
+
+#middle-section {
+    padding:5%;
+}
