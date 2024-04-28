@@ -74,7 +74,6 @@ main{
 .text-center-justify {
     text-align: center;
     padding-bottom:2em;
-
 }
 
 button {
@@ -96,7 +95,7 @@ button:active {
 } 
 
 .middle-section {
-    padding:5%;
+    padding:0 5% 0 5%;
 }
 
 table{
@@ -167,19 +166,18 @@ table td ul{
     padding-bottom:1em;
     font-weight:100;
     text-align:center;
-   
 }
 
 .round-card-subtitle {
     padding-bottom:2em;
     font-weight:50;
     text-align:center;
- 
 }
 
 .banner-collapse{
    background-color:darkgray;
 }
+
 .banner-collapse-half {
     width:45%;
     height: 100%;
