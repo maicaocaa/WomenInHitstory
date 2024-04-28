@@ -73,7 +73,8 @@ main{
 
 .text-center-justify {
     text-align: center;
-   
+    padding-bottom:2em;
+
 }
 
 button {
@@ -149,13 +150,33 @@ table td ul{
     display: inline-block;
     align-items: center;
 }
+
 .round-img {
         border-radius: 50%;
         height:150px;
-        width:150px
+        width:150px;
+        border:2px solid white ; 
     }
 
+.round-img:hover {
+        box-shadow: lavender 0 20px 20px;
+        border:2px lavender solid; 
+   }
     
+.round-card-title {
+    padding-bottom:1em;
+    font-weight:100;
+    text-align:center;
+   
+}
+
+.round-card-subtitle {
+    padding-bottom:2em;
+    font-weight:50;
+    text-align:center;
+ 
+}
+
 .banner-collapse{
    background-color:darkgray;
 }
