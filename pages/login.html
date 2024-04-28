@@ -27,28 +27,36 @@
 
     <main>
        <section class="form-section">
-          <div>TITULO
-          <p class="text-left-justify ">Cubre el siguiente formulario para tal y cual</p>
-          </div>
+         <div id="form-container">
+              <div>
+                <h1 class="title">Register Now</h1>
+                <p class="text-left-justify">Register for the broadcast(s) that best suits you. See “Event Details” for exact times in your region. The Americas session offers Spanish and Portuguese caption options.</p>
+              </div>
 
-          <div>
-           <form action="#" method="POST">
-            
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" value="introduce tu nombre" required>
+              <form action="#" method="POST" >
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"  required>
 
-            <label form="email">Email</label>
-            <input  type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+                <input  type="email" id="email" name="email" required>
 
-            <label>Password</label>
-            <input type="password">
+                <label for="pass">Password</label>
+                <input name="pass" id ="pass" type="password" required>
 
-            <label>label</label>
-            <input>
-            <button id="form-btn" type="submit">Enviar</button>
+                <label for="event">Select the event you wish register to:</label>
+                <select id="event" name="event" required>
+                    <option value="" selected="selected">Select the event...</option>
+                    <option value="emea">EMEA</option>
+                    <option value="apjc">APJC</option>
+                    <option value="americas">AMERICAS</option>
+                </select >
+                <p>By clicking Submit, you agree to send your info to CISCO who agrees to use it according to their privacy policy. View Privacy Policy.</p>
+                <button id="form-btn" type="submit">Enviar</button>
 
-           </form>
-          </div>
+              </form>
+          
+        </div>
        </section>
       
 
