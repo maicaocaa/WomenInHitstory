@@ -1,0 +1,36 @@
+.learn-card{
+    height:auto;
+    width:100%;
+    background-color: lavender;
+}
+
+.learn-card-left {
+    width:50%;
+    position:absolute;
+    height:400px;
+    background-color: lavender;
+    align-items: center;
+    overflow:hidden;
+}
+.learn-card-left img{
+    width:100%;
+    position:absolute;
+    height:auto;
+}
+
+
+.learn-card-right {
+    width:50%;
+    position:relative;
+    height:400px;
+    left:50%;
+    background-color:black;
+    color:white;
+    font-size:0.8em;
+    text-align: center;
+    
+}
+
+.learn-card-right p{
+    margin:1em;
+}
